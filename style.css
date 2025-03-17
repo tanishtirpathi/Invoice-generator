@@ -118,7 +118,62 @@ nav ul {
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }
-
+/*!===============  main page ============  */
+.main-page {
+  background-color: #e2e4e9;
+  padding: 50px;
+  width: 75%;
+  border-top-right-radius: 10px;
+  margin: 0px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.image input {
+  padding: 5px;
+  margin-block: 10px;
+  width: 200px;
+}
+.bills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.images-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#user {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+.bills input {
+  padding: 5px;
+  margin: 10px 40px;
+  width: 200px;
+}
+.invoiceheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.invoiceheading input {
+  padding: 5px;
+  margin-block: 10px;
+  width: 200px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 /*!===============  footer page ============  */
 footer {
   background-color: #324d6a;
