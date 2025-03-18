@@ -260,6 +260,103 @@ nav ul {
   font-size: 13px;
   transition: background-color 0.3s ease-in-out;
 }
+
+.lefty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.lefty .list {
+  padding: 10px 20px;
+  display: flex;
+  margin: 10px 0px;
+  border-radius: 5px;
+  background-color: #4c5761;
+  align-items: center;
+  justify-content: space-between;
+}
+.items {
+  padding: 5px;
+  width: 200px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgb(27, 17, 17);
+}
+.price {
+  padding: 5px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgb(27, 17, 17);
+  width: 10%;
+}
+.quantity {
+  width: 10%;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgb(27, 17, 17);
+}
+.removee {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #324d6a;
+  font-weight: 700;
+  border: 1px solid rgb(32, 68, 92);
+}
+.middle {
+  padding: 40px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.otherthing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-thing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.date-type {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.input-thing input {
+  padding: 5px;
+  width: 200px;
+  margin: 2px;
+}
+.date-type h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 1px;
+  color: #324d6a;
+}
+.addbtn {
+  background-color: #ffffff00;
+  color: #324d6a;
+  padding: 10px 20px;
+  border: 1px solid #324d6a;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 720;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 2px 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+.addbtn:hover {
+  background-color: #9bc8dd;
+}
 /*!===============  footer page ============  */
 footer {
   background-color: #324d6a;
